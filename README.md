@@ -36,10 +36,19 @@ Running the `ProblemsByTags.py` will regenerate the json file.
 
 
 ## Write a solution
-To write a new solution, run `python newSolution.py myProblem`. The script will create a new template file under the right folder hierarchy and will print its location.
+Create a new branch `git checkout -b <yourUserName>/<theProblemName>` 
+
+For example : `git checkout -b jjosef/isPEqualNP`
+
+Run `python newSolution.py myProblem`. 
+The script will create a new template file under the right folder hierarchy and will print its location.
 
 Please make sure to replace everything need to be replaced.
 
+Add a few test cases, make sure they're running smoothly.
+
+Run `build.ps1`.
+If everything is OK, push it and open a PR.
 
 ## Troubleshooting
 Found something wrong? Something that can be optimized? Feel free to [open an issue](https://github.com/jonathanjosef91/LeetCode/issues). *please make sure the issue doesn't already exist* 

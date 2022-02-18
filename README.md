@@ -1,4 +1,5 @@
 # LeetCode
+*By Jonathan Joseph*
 
 This repo contains python solutions for [Leet Code](https://leetcode.com/) problems 
 

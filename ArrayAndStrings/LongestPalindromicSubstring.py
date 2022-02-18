@@ -27,9 +27,8 @@ class Solution(object):
         return max_pali
 
 
-class test_CoinChange(unittest.TestCase):
+class test_longestPalindrome(unittest.TestCase):
     def test_1(self):
-        # self.assertEqual(3, Solution().coinChange(coins = [227,99,328,299,42,322], amount = 9847))
         res = Solution().longestPalindrome("babad")
         self.assertTrue(res in ["bab", "aba"])
         self.assertEqual("bb", Solution().longestPalindrome("cbbd"))

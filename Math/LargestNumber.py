@@ -1,3 +1,4 @@
+import unittest
 from functools import cmp_to_key
 
 class Solution(object):
@@ -18,11 +19,12 @@ class Solution(object):
 
         return s
 
-if __name__ == '__main__':
-    print(Solution().largestNumber([12341,123411234]))
-    print(Solution().largestNumber([432,43243]))
-    print(Solution().largestNumber([0,0]))
 
-    print(Solution().largestNumber([3,30,34,5,9]))
-    print(Solution().largestNumber([10, 2]))
-    print(Solution().largestNumber([2, 10]))
+class test_largestNumber(unittest.TestCase):
+    def test_1(self):
+        self.assertEqual("12341123412341", Solution().largestNumber([12341,123411234]))
+        self.assertEqual("43243432", Solution().largestNumber([432,43243]))
+        self.assertEqual("0", Solution().largestNumber([0,0]))
+        self.assertEqual("9534330", Solution().largestNumber([3,30,34,5,9]))
+        self.assertEqual("210", Solution().largestNumber([10, 2]))
+        self.assertEqual("210", Solution().largestNumber([2, 10]))

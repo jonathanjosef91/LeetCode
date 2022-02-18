@@ -45,7 +45,6 @@ class Solution(object):
 
 class test_CoinChange(unittest.TestCase):
     def test_1(self):
-        # self.assertEqual(3, Solution().coinChange(coins = [227,99,328,299,42,322], amount = 9847))
         self.assertEqual(3, Solution().coinChange(coins = [1,2,5], amount = 11))
         self.assertEqual(-1, Solution().coinChange(coins = [2], amount = 3))
         self.assertEqual(0, Solution().coinChange(coins = [1], amount = 0))

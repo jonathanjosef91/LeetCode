@@ -1,6 +1,6 @@
 # LeetCode
 
-This repo contains my original solutions for [Leet Code](https://leetcode.com/) problems 
+This repo contains my original python solutions for [Leet Code](https://leetcode.com/) problems 
 
 You can find problems classified by two methods
 1. Lexicographic order - Folder arranged in a lexicographic order by the same name you'll find in LeetCode.

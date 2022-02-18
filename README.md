@@ -1,5 +1,5 @@
 # LeetCode
-*By Jonathan Joseph*
+*By [Jonathan Joseph](https://www.linkedin.com/in/jonathanjosef/)*
 
 This repo contains python solutions for [Leet Code](https://leetcode.com/) problems 
 

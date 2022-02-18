@@ -2,7 +2,7 @@ import unittest
 from Tags import *
 """
 Author: Jonathan Joseph
-Problem Description/link: replace with relevant link or problem description
+Problem Description/link: https://leetcode.com/problems/3sum/
 """
 
 

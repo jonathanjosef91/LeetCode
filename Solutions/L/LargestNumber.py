@@ -4,7 +4,7 @@ from functools import cmp_to_key
 
 """
 Author: Jonathan Joseph
-Problem Description/link: replace with relevant link or problem description
+Problem Description/link: https://leetcode.com/problems/largest-number/
 """
 
 class Solution(object):

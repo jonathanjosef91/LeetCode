@@ -12,12 +12,25 @@ if __name__ == '__main__':
         name = name[0].upper() + name[1:]
 
     firstLetter = name[:1]
+    path = os.path.join(firstLetter, name + ".py")
 
     try:
         os.mkdir(firstLetter)
     except:
         pass
 
-    shutil.copy("Template.py", os.path.join(firstLetter, name + ".py"))
+    shutil.copy("Template.py", path)
 
-    print("All set up, you can find your new file under " + os.path.join(firstLetter, name + ".py"))
+    # Read in the file
+    with open(path, 'r') as file:
+        file_data = file.read()
+
+    # Replace the target string
+    file_data = file_data.replace('Template', name)
+    file_data = file_data.replace('template', name)
+
+    # Write the file out again
+    with open(path, 'w') as file:
+        file.write(file_data)
+
+    print("All set up, you can find your new file under " + path)

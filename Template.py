@@ -4,7 +4,7 @@ from heapq import heapify, heappush, heappop
 """
 Author: Jonathan Joseph
 Tags: Easy, strings
-Problem Description/link: just a template
+Problem Description/link: replace with relevant link or problem description
 """
 
 class Solution(object):

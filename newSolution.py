@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
     # Replace the target string
     file_data = file_data.replace('Template', name)
-    file_data = file_data.replace('template', name)
+    file_data = file_data.replace('template', name[0].lower() + name[1:])
 
     # Write the file out again
     with open(path, 'w') as file:

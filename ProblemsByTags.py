@@ -21,4 +21,4 @@ if __name__ == '__main__':
                     Tags[tag_type][tag_val].append(filename.split(".py")[0])
 
     with open("ProblemsByTags.json", "w") as f:
-        f.write(json.dumps(Tags))
+        f.write(json.dumps(Tags, indent=4, sort_keys=True))

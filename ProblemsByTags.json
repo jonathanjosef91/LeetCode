@@ -1,1 +1,30 @@
-{"Difficulty": {"Beginners": ["ThreeSum"]}, "Topic": {"Searches": ["ThreeSum"]}, "Tags": {"Old": ["ThreeSum"]}}
+{
+    "Difficulty": {
+        "Beginners": [
+            "ThreeSum"
+        ],
+        "Hard": [
+            "LongestPalindrome"
+        ],
+        "Medium": [
+            "CoinChange"
+        ]
+    },
+    "Tags": {
+        "Old": [
+            "ThreeSum"
+        ]
+    },
+    "Topic": {
+        "DP": [
+            "CoinChange",
+            "LongestPalindrome"
+        ],
+        "Searches": [
+            "ThreeSum"
+        ],
+        "Strings": [
+            "LongestPalindrome"
+        ]
+    }
+}

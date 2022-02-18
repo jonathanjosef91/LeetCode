@@ -12,6 +12,10 @@ if __name__ == '__main__':
         name = name[0].upper() + name[1:]
 
     firstLetter = name[:1]
+
+    if firstLetter.isdigit():
+        firstLetter = "0-9"
+
     path = os.path.join(firstLetter, name + ".py")
 
     try:

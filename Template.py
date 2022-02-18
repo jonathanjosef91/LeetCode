@@ -1,13 +1,15 @@
 import unittest
-from heapq import heapify, heappush, heappop
-
+from Tags import Tags
 """
 Author: Jonathan Joseph
-Tags: Easy, strings
 Problem Description/link: replace with relevant link or problem description
 """
 
 class Solution(object):
+    def getTags(self):
+        tags = [Tags.Beginners, Tags.Strings] # TODO: Change
+        return tags
+
     def template(self, s):
         """
         :type s: str

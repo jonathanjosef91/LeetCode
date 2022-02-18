@@ -13,14 +13,14 @@ Math - Problems that relay mostly on dynamic programming technics
 
 DP - Problems that relay mostly on dynamic programming technics
 
-Array And Strings - Problems that requires modifications and understanding of arrays and strings
+Strings - Problems that requires modifications and understanding of strings
 
 Searches - Including all kind of search algorithms 
 
 Old - Problems that I solved in early stages of my career. 
 The Solutions you'll find there are valid but can be lack of style, tests, and tagged poorly.
 
-### Level based tags
+### Difficulty based tags
 Beginners - Good place to start from. Not likely to be asked during an interview
 
 Medium - Most of the interview questions fall under this bucket. You want to reach the level where you can come up with a solution in 5-15 minutes, and code it in another 5-15 minutes.

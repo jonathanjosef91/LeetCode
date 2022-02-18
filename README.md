@@ -37,7 +37,7 @@ Running the `ProblemsByTags.py` will regenerate the json file.
 
 
 ## Write a solution
-Create a new branch `git checkout -b <yourUserName>/<theProblemName>` 
+Create a new branch `git checkout -b <yourUsername>/<theProblemName>` 
 
 For example : `git checkout -b jjosef/isPEqualNP`
 

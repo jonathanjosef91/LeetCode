@@ -1,7 +1,17 @@
 import unittest
+from Tags import *
 from functools import cmp_to_key
 
+"""
+Author: Jonathan Joseph
+Problem Description/link: replace with relevant link or problem description
+"""
+
 class Solution(object):
+    def getTags(self):
+        tags = [Difficulty.Medium, Topic.Math]
+        return tags
+
     def _cmpNum(self, x, y):
         if str(x) + str(y) > str(y) + str(x):
             return 1

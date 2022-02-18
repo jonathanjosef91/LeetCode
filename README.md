@@ -1,6 +1,6 @@
 # LeetCode
 
-This repo contains my original python solutions for [Leet Code](https://leetcode.com/) problems 
+This repo contains python solutions for [Leet Code](https://leetcode.com/) problems 
 
 You can find problems classified by two methods
 1. Lexicographic order - Folder arranged in a lexicographic order by the same name you'll find in LeetCode.
@@ -41,4 +41,12 @@ Extreme - Just for fun. Don't feel bad if you haven't solved them. Most of the i
 
 ### Old
 
+
+## Write a solution
+To write a new solution, run `python newSolution.py myProblem`. The script will create a new template file under the right folder hierarchy and will print its location.
+
+Please make sure to replace everything need to be replaced.
+
+
+## Troubleshooting
 Found something wrong? Something that can be optimized? Feel free to [open an issue](https://github.com/jonathanjosef91/LeetCode/issues). *please make sure the issue doesn't already exist* 

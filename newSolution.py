@@ -7,19 +7,17 @@ import re
 if __name__ == '__main__':
     assert len(sys.argv) == 2, "1 argument expected, got " + str(len(sys.argv) - 1)
     name = sys.argv[1]
-    assert re.match("^[A-Za-z0-9_-]*$", name), "name should contains only  letters and numbers"
+    assert re.match("^[A-Za-z][A-Za-z0-9_-]*$", name), "name should start with a letter, and contains only letters and numbers"
     if name[0].islower():
         name = name[0].upper() + name[1:]
 
     firstLetter = name[:1]
-
-    if firstLetter.isdigit():
-        firstLetter = "0-9"
-
-    path = os.path.join(firstLetter, name + ".py")
+    dirPath = os.path.join("Solutions", firstLetter)
+    path = os.path.join("Solutions", firstLetter, name + ".py")
 
     try:
-        os.mkdir(firstLetter)
+        os.mkdir(dirPath)
+        open(os.path.join(dirPath,"__init__.py"), "w").close()
     except:
         pass
 

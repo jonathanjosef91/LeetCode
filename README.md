@@ -29,17 +29,10 @@ Hard - Very challenging problems. Can be asked during job interviews, but most l
 
 Extreme - Just for fun. Don't feel bad if you haven't solved them. Most of the interviewers can't solve them either.
 
-## Problems by Tags:
-### Array And Strings
+### Mapping Problems by Tags:
 
-
-### DP
-
-
-### Math
-
-
-### Old
+You can find in `ProblemsByTags.json` a problem mapping by tags.
+Running the `ProblemsByTags.py` will regenerate the json file.
 
 
 ## Write a solution

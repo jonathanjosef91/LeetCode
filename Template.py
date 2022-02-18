@@ -1,5 +1,5 @@
 import unittest
-from Tags import Tags
+from Tags import *
 """
 Author: Jonathan Joseph
 Problem Description/link: replace with relevant link or problem description
@@ -7,7 +7,7 @@ Problem Description/link: replace with relevant link or problem description
 
 class Solution(object):
     def getTags(self):
-        tags = [Tags.Beginners, Tags.Strings] # TODO: Change
+        tags = [Difficulty.Beginners, Topic.Strings] # TODO: Change
         return tags
 
     def template(self, s):

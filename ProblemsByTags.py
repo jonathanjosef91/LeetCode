@@ -12,10 +12,13 @@ if __name__ == '__main__':
                 continue
             tags = importlib.import_module(path.replace("\\", ".").split(".py")[0]).Solution().getTags()
             for t in tags:
-                if str(t) not in Tags:
-                    Tags[str(t)] = [filename.split(".py")[0]]
+                tag_type, tag_val = str(t).split(".")
+                if tag_type not in Tags:
+                    Tags[tag_type] = {}
+                if tag_val not in Tags[tag_type]:
+                    Tags[tag_type][tag_val] = [filename.split(".py")[0]]
                 else:
-                    Tags[str(t)].append(filename.split(".py")[0])
+                    Tags[tag_type][tag_val].append(filename.split(".py")[0])
 
     with open("ProblemsByTags.json", "w") as f:
         f.write(json.dumps(Tags))

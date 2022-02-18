@@ -1,5 +1,5 @@
 import unittest
-from Tags import Tags
+from Tags import *
 """
 Author: Jonathan Joseph
 Problem Description/link: replace with relevant link or problem description
@@ -25,7 +25,7 @@ def removeDuplicate(nums):
 
 class Solution(object):
     def getTags(self):
-        tags = [Tags.Beginners, Tags.Searches]
+        tags = [Difficulty.Beginners, Topic.Searches, Tags.Old]
         return tags
 
     def threeSum(self, nums):

@@ -16,3 +16,4 @@ class Topic(Enum):
     DP = 2
     Strings = 3
     Searches = 4
+    Algorithms = 5

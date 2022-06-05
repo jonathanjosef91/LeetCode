@@ -4,7 +4,8 @@
             "ThreeSum"
         ],
         "Hard": [
-            "LongestPalindrome"
+            "LongestPalindrome",
+            "N_queens"
         ],
         "Medium": [
             "CoinChange",
@@ -17,6 +18,9 @@
         ]
     },
     "Topic": {
+        "Algorithms": [
+            "N_queens"
+        ],
         "DP": [
             "CoinChange",
             "LongestPalindrome"

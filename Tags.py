@@ -17,3 +17,4 @@ class Topic(Enum):
     Strings = 3
     Searches = 4
     Algorithms = 5
+    Sorting = 6

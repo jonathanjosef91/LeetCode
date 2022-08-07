@@ -1,6 +1,7 @@
 {
     "Difficulty": {
         "Beginners": [
+            "SortColors",
             "ThreeSum"
         ],
         "Hard": [
@@ -33,6 +34,9 @@
         "Searches": [
             "IncreasingTripletSubsequence",
             "ThreeSum"
+        ],
+        "Sorting": [
+            "SortColors"
         ],
         "Strings": [
             "LongestPalindrome",

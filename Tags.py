@@ -18,3 +18,5 @@ class Topic(Enum):
     Searches = 4
     Algorithms = 5
     Sorting = 6
+    BackTracking = 7
+    Design = 8

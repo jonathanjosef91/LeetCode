@@ -7,14 +7,10 @@ Problem Description/link: replace with relevant link or problem description
 
 class Solution(object):
     def getTags(self):
-        tags = [Difficulty.Beginners, Topic.Strings] # TODO: Change
+        tags = [Difficulty.Beginners, Topic.Strings]    # TODO: Change
         return tags
 
-    def template(self, s):
-        """
-        :type s: str
-        :rtype: str
-        """
+    def template(self, s: str) -> str:
         return s
 
 

@@ -1,10 +1,14 @@
 {
     "Difficulty": {
         "Beginners": [
+            "CountAndSay",
+            "LengthOfLIS",
             "SortColors",
-            "ThreeSum"
+            "ThreeSum",
+            "TopKFrequentNums"
         ],
         "Hard": [
+            "Codec",
             "LongestPalindrome",
             "N_queens"
         ],
@@ -12,6 +16,7 @@
             "CoinChange",
             "IncreasingTripletSubsequence",
             "LargestNumber",
+            "Permutations",
             "TopKFrequent"
         ]
     },
@@ -22,11 +27,19 @@
     },
     "Topic": {
         "Algorithms": [
-            "N_queens"
+            "N_queens",
+            "TopKFrequentNums"
+        ],
+        "BackTracking": [
+            "Permutations"
         ],
         "DP": [
             "CoinChange",
+            "LengthOfLIS",
             "LongestPalindrome"
+        ],
+        "Design": [
+            "Codec"
         ],
         "Math": [
             "LargestNumber"
@@ -39,6 +52,7 @@
             "SortColors"
         ],
         "Strings": [
+            "CountAndSay",
             "LongestPalindrome",
             "TopKFrequent"
         ]

@@ -7,6 +7,9 @@
             "ThreeSum",
             "TopKFrequentNums"
         ],
+        "Extreme": [
+            "FirstMissingPositive"
+        ],
         "Hard": [
             "Codec",
             "LongestPalindrome",
@@ -49,6 +52,7 @@
             "ThreeSum"
         ],
         "Sorting": [
+            "FirstMissingPositive",
             "SortColors"
         ],
         "Strings": [

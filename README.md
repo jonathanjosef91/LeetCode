@@ -48,7 +48,7 @@ Please make sure to replace everything need to be replaced.
 
 Add a few test cases, make sure they're running smoothly.
 
-Run `.\build.ps1`.
+Run `python ProblemsByTags.py`.
 If everything is OK, push it and open a PR.
 
 ## Troubleshooting
